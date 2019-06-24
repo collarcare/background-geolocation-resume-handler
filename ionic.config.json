@@ -1,0 +1,7 @@
+{
+  "name": "helloMap",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
