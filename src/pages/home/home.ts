@@ -87,9 +87,18 @@ export class HomePage implements OnInit, OnDestroy{
   // tslint:disable-next-line:no-unused-variable
   private resume: any;
 
+  /**
+   * Flag if BackgroundGeolocation is enabled
+   */
   private enabled = false;
+  /**
+   * Flag if BackgroundGeolocation is ready
+   */
   private isReady = false;
-  
+
+  /**
+   * Flag if resume and pause handler are configured
+   */
   private configuredStopResumeHandler = false;
   private onLocation: any;
   private onMotionChange: any;
